@@ -34,13 +34,12 @@ pipeline {
 
          post {
                 always {
-                    unstash 'allure-results'
-                    scritp {
+                 
                        allure includeProperties:
                      false,
                      jdk: '',
                      results: [[path: 'allure-results']]
-}                    }
+}                    
                  
          }
     }
