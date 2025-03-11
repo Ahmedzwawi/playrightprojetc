@@ -24,13 +24,15 @@ pipeline {
                     sh 'npx playwright test'
                 }
             }
-        }
-
+        
         stage('Publish Allure Report') {
             steps {
                 allure includeProperties: false, jdk: '', results: [[path: 'allure-results']]
             }
         }
+        }
+
+        
 
          post {
                 always {
@@ -39,9 +41,9 @@ pipeline {
                      false,
                      jdk: '',
                      results: [[path: 'allure-results']]
-}                    
-                 
-         }
+    
+                }
+              }
     }
     
         
