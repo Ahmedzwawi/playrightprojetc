@@ -15,14 +15,14 @@ pipeline {
         stage('Run Playwright Tests') {
             steps {
                 sh 'npx playwright install'  
-                sh 'npx playwright test'
+                sh 'npx playwright test'  
             }
         }
-           stage('Publish JUnit Report') {
-            steps {
-                    junit '**/results.xml' 
-            }
-        }
+        //    stage('Publish JUnit Report') {
+        //     steps {
+        //             junit '**/results.xml' 
+        //     }
+        // }
 
     }
        stage('Publish Allure Report') {
