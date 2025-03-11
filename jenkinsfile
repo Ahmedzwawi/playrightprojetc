@@ -26,8 +26,8 @@ pipeline {
 
         stage('Publish Allure Report') {
             steps {
-                allure includeProperties: false, jdk: '', results: [[path: 'allure-results']]
+                sh 'allure generate allure-results -c -o allure-report'
             }
         }
-    }
+    }allure-results
 }
