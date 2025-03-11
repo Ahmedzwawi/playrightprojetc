@@ -1,14 +1,10 @@
 pipeline {
     agent {
         docker {
-            image 'Playwright'  
+            image 'mcr.microsoft.com/playwright:v1.50.0-noble'
         }
     }
-
-
     stages {
-
-
         stage('Run') {
             steps {
                 sh 'npm ci'
