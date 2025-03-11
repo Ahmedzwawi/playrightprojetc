@@ -12,33 +12,24 @@ pipeline {
                 script {
                     sh 'npm ci'
                     sh 'npx playwright test --reporter=line,allure-playwright'
-                    
-                    // Vérifier que les fichiers Allure sont bien générés
-                    sh 'ls -l allure-results'
-
                     stash name: 'allure-results', includes: 'allure-results/*'
                 }
             }
+
         }
     }
     post {
         always {
-            unstash 'allure-results' // Récupération des résultats
-
-            // Archive les résultats pour les télécharger via Jenkins
-            archiveArtifacts artifacts: 'allure-results/**', fingerprint: true
-            
-            // Génération et affichage du rapport Allure
-            allure([
+            unstash 'allure-results' //extract results
+            script {
+                allure([
                 includeProperties: false,
                 jdk: '',
                 properties: [],
                 reportBuildPolicy: 'ALWAYS',
                 results: [[path: 'allure-results']]
             ])
-
-            // Afficher le rapport dans Jenkins (si le plugin Allure est installé)
-            allureReport results: [[path: 'allure-results']]
+            }
         }
     }
 }
