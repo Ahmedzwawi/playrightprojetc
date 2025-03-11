@@ -5,6 +5,10 @@ pipeline {
             args '--user root'  // Exécuter en tant que root pour éviter les erreurs de permission
         }
     }
+     environment {
+        JAVA_HOME = "C:\Program Files\Java\jdk-23"
+        PATH = "%JAVA_HOME%\bin"
+    }
     stages {
         stage('Install Dependencies') {
             steps {
@@ -26,7 +30,16 @@ pipeline {
         stage('Publish Allure Report') {
             steps {
                 sh 'allure generate allure-results -c -o allure-report'
+                archiveArtifacts 'allure-results/*.*'
             }
         }
     }
+     post {
+                always {
+                    allure includeProperties:
+                     false,
+                     jdk: '',
+                     results: [[path: 'allure-results']]
+                }
+            }
 }
