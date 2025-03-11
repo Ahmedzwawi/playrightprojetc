@@ -1,0 +1,170 @@
+<testsuites id="" name="" tests="60" failures="0" skipped="0" errors="0" time="134.948267">
+<testsuite name="carttest.spec.ts" timestamp="2025-03-11T11:34:12.274Z" hostname="chromium" tests="4" failures="0" skipped="0" time="21.483" errors="0">
+<testcase name="Vérifier que le panier contient un produit" classname="carttest.spec.ts" time="7.026">
+</testcase>
+<testcase name="Supprimer un produit du panier" classname="carttest.spec.ts" time="4.891">
+</testcase>
+<testcase name="Continuer les achats depuis le panier" classname="carttest.spec.ts" time="5.296">
+</testcase>
+<testcase name="Aller à la page de checkout" classname="carttest.spec.ts" time="4.27">
+</testcase>
+</testsuite>
+<testsuite name="checkoutcomplete.spec.ts" timestamp="2025-03-11T11:34:12.274Z" hostname="chromium" tests="2" failures="0" skipped="0" time="9.757" errors="0">
+<testcase name="Vérifier le message de confirmation" classname="checkoutcomplete.spec.ts" time="5.497">
+</testcase>
+<testcase name="Retourner à la page des produits" classname="checkoutcomplete.spec.ts" time="4.26">
+</testcase>
+</testsuite>
+<testsuite name="checkoutsteponetest.spec.ts" timestamp="2025-03-11T11:34:12.274Z" hostname="chromium" tests="3" failures="0" skipped="0" time="12.638" errors="0">
+<testcase name="Remplir le formulaire de checkout avec succès" classname="checkoutsteponetest.spec.ts" time="3.7">
+</testcase>
+<testcase name="Ne pas remplir le formulaire et vérifier le message d’erreur" classname="checkoutsteponetest.spec.ts" time="4.793">
+</testcase>
+<testcase name="Annuler le checkout et revenir au panier" classname="checkoutsteponetest.spec.ts" time="4.145">
+</testcase>
+</testsuite>
+<testsuite name="checkoutsteptwo.spec.ts" timestamp="2025-03-11T11:34:12.274Z" hostname="chromium" tests="3" failures="0" skipped="0" time="14.947" errors="0">
+<testcase name="Vérifier que les produits et le prix total s’affichent" classname="checkoutsteptwo.spec.ts" time="3.173">
+</testcase>
+<testcase name="Finaliser l’achat et vérifier la redirection" classname="checkoutsteptwo.spec.ts" time="6.159">
+</testcase>
+<testcase name="Annuler la commande et revenir au catalogue" classname="checkoutsteptwo.spec.ts" time="5.615">
+</testcase>
+</testsuite>
+<testsuite name="example.spec.ts" timestamp="2025-03-11T11:34:12.274Z" hostname="chromium" tests="2" failures="0" skipped="0" time="6.719" errors="0">
+<testcase name="has title" classname="example.spec.ts" time="2.25">
+</testcase>
+<testcase name="get started link" classname="example.spec.ts" time="4.469">
+</testcase>
+</testsuite>
+<testsuite name="logintest.spec.ts" timestamp="2025-03-11T11:34:12.274Z" hostname="chromium" tests="3" failures="0" skipped="0" time="8.855" errors="0">
+<testcase name="Vérifie le titre de la page" classname="logintest.spec.ts" time="3.329">
+</testcase>
+<testcase name="username correcte &amp; mot de passe correct" classname="logintest.spec.ts" time="3.927">
+</testcase>
+<testcase name="username incorrecte &amp; mot de passe correct" classname="logintest.spec.ts" time="1.599">
+</testcase>
+</testsuite>
+<testsuite name="logout.spec.ts" timestamp="2025-03-11T11:34:12.274Z" hostname="chromium" tests="1" failures="0" skipped="0" time="3.675" errors="0">
+<testcase name="Se déconnecter et vérifier la redirection" classname="logout.spec.ts" time="3.675">
+</testcase>
+</testsuite>
+<testsuite name="products.spec.ts" timestamp="2025-03-11T11:34:12.274Z" hostname="chromium" tests="2" failures="0" skipped="0" time="8.161" errors="0">
+<testcase name="Vérifier que les produits sont affichés" classname="products.spec.ts" time="3.191">
+</testcase>
+<testcase name="Ajouter un produit au panier et vérifier le badge" classname="products.spec.ts" time="4.97">
+</testcase>
+</testsuite>
+<testsuite name="carttest.spec.ts" timestamp="2025-03-11T11:34:12.274Z" hostname="firefox" tests="4" failures="0" skipped="0" time="99.597" errors="0">
+<testcase name="Vérifier que le panier contient un produit" classname="carttest.spec.ts" time="23.503">
+</testcase>
+<testcase name="Supprimer un produit du panier" classname="carttest.spec.ts" time="27.431">
+</testcase>
+<testcase name="Continuer les achats depuis le panier" classname="carttest.spec.ts" time="24.847">
+</testcase>
+<testcase name="Aller à la page de checkout" classname="carttest.spec.ts" time="23.816">
+</testcase>
+</testsuite>
+<testsuite name="checkoutcomplete.spec.ts" timestamp="2025-03-11T11:34:12.274Z" hostname="firefox" tests="2" failures="0" skipped="0" time="18.539" errors="0">
+<testcase name="Vérifier le message de confirmation" classname="checkoutcomplete.spec.ts" time="9.879">
+</testcase>
+<testcase name="Retourner à la page des produits" classname="checkoutcomplete.spec.ts" time="8.66">
+</testcase>
+</testsuite>
+<testsuite name="checkoutsteponetest.spec.ts" timestamp="2025-03-11T11:34:12.274Z" hostname="firefox" tests="3" failures="0" skipped="0" time="25.232" errors="0">
+<testcase name="Remplir le formulaire de checkout avec succès" classname="checkoutsteponetest.spec.ts" time="7.237">
+</testcase>
+<testcase name="Ne pas remplir le formulaire et vérifier le message d’erreur" classname="checkoutsteponetest.spec.ts" time="6.868">
+</testcase>
+<testcase name="Annuler le checkout et revenir au panier" classname="checkoutsteponetest.spec.ts" time="11.127">
+</testcase>
+</testsuite>
+<testsuite name="checkoutsteptwo.spec.ts" timestamp="2025-03-11T11:34:12.274Z" hostname="firefox" tests="3" failures="0" skipped="0" time="25.679" errors="0">
+<testcase name="Vérifier que les produits et le prix total s’affichent" classname="checkoutsteptwo.spec.ts" time="8.528">
+</testcase>
+<testcase name="Finaliser l’achat et vérifier la redirection" classname="checkoutsteptwo.spec.ts" time="8.955">
+</testcase>
+<testcase name="Annuler la commande et revenir au catalogue" classname="checkoutsteptwo.spec.ts" time="8.196">
+</testcase>
+</testsuite>
+<testsuite name="example.spec.ts" timestamp="2025-03-11T11:34:12.274Z" hostname="firefox" tests="2" failures="0" skipped="0" time="10.515" errors="0">
+<testcase name="has title" classname="example.spec.ts" time="3.428">
+</testcase>
+<testcase name="get started link" classname="example.spec.ts" time="7.087">
+</testcase>
+</testsuite>
+<testsuite name="logintest.spec.ts" timestamp="2025-03-11T11:34:12.274Z" hostname="firefox" tests="3" failures="0" skipped="0" time="13.292" errors="0">
+<testcase name="Vérifie le titre de la page" classname="logintest.spec.ts" time="2.867">
+</testcase>
+<testcase name="username correcte &amp; mot de passe correct" classname="logintest.spec.ts" time="5.004">
+</testcase>
+<testcase name="username incorrecte &amp; mot de passe correct" classname="logintest.spec.ts" time="5.421">
+</testcase>
+</testsuite>
+<testsuite name="logout.spec.ts" timestamp="2025-03-11T11:34:12.274Z" hostname="firefox" tests="1" failures="0" skipped="0" time="6.97" errors="0">
+<testcase name="Se déconnecter et vérifier la redirection" classname="logout.spec.ts" time="6.97">
+</testcase>
+</testsuite>
+<testsuite name="products.spec.ts" timestamp="2025-03-11T11:34:12.274Z" hostname="firefox" tests="2" failures="0" skipped="0" time="10.552" errors="0">
+<testcase name="Vérifier que les produits sont affichés" classname="products.spec.ts" time="5.09">
+</testcase>
+<testcase name="Ajouter un produit au panier et vérifier le badge" classname="products.spec.ts" time="5.462">
+</testcase>
+</testsuite>
+<testsuite name="carttest.spec.ts" timestamp="2025-03-11T11:34:12.274Z" hostname="webkit" tests="4" failures="0" skipped="0" time="22.499" errors="0">
+<testcase name="Vérifier que le panier contient un produit" classname="carttest.spec.ts" time="5.533">
+</testcase>
+<testcase name="Supprimer un produit du panier" classname="carttest.spec.ts" time="5.565">
+</testcase>
+<testcase name="Continuer les achats depuis le panier" classname="carttest.spec.ts" time="5.653">
+</testcase>
+<testcase name="Aller à la page de checkout" classname="carttest.spec.ts" time="5.748">
+</testcase>
+</testsuite>
+<testsuite name="checkoutcomplete.spec.ts" timestamp="2025-03-11T11:34:12.274Z" hostname="webkit" tests="2" failures="0" skipped="0" time="19.563" errors="0">
+<testcase name="Vérifier le message de confirmation" classname="checkoutcomplete.spec.ts" time="9.222">
+</testcase>
+<testcase name="Retourner à la page des produits" classname="checkoutcomplete.spec.ts" time="10.341">
+</testcase>
+</testsuite>
+<testsuite name="checkoutsteponetest.spec.ts" timestamp="2025-03-11T11:34:12.274Z" hostname="webkit" tests="3" failures="0" skipped="0" time="25.141" errors="0">
+<testcase name="Remplir le formulaire de checkout avec succès" classname="checkoutsteponetest.spec.ts" time="9.414">
+</testcase>
+<testcase name="Ne pas remplir le formulaire et vérifier le message d’erreur" classname="checkoutsteponetest.spec.ts" time="8.503">
+</testcase>
+<testcase name="Annuler le checkout et revenir au panier" classname="checkoutsteponetest.spec.ts" time="7.224">
+</testcase>
+</testsuite>
+<testsuite name="checkoutsteptwo.spec.ts" timestamp="2025-03-11T11:34:12.274Z" hostname="webkit" tests="3" failures="0" skipped="0" time="25.545" errors="0">
+<testcase name="Vérifier que les produits et le prix total s’affichent" classname="checkoutsteptwo.spec.ts" time="8.185">
+</testcase>
+<testcase name="Finaliser l’achat et vérifier la redirection" classname="checkoutsteptwo.spec.ts" time="8.968">
+</testcase>
+<testcase name="Annuler la commande et revenir au catalogue" classname="checkoutsteptwo.spec.ts" time="8.392">
+</testcase>
+</testsuite>
+<testsuite name="example.spec.ts" timestamp="2025-03-11T11:34:12.274Z" hostname="webkit" tests="2" failures="0" skipped="0" time="8.52" errors="0">
+<testcase name="has title" classname="example.spec.ts" time="2.833">
+</testcase>
+<testcase name="get started link" classname="example.spec.ts" time="5.687">
+</testcase>
+</testsuite>
+<testsuite name="logintest.spec.ts" timestamp="2025-03-11T11:34:12.274Z" hostname="webkit" tests="3" failures="0" skipped="0" time="10.747" errors="0">
+<testcase name="Vérifie le titre de la page" classname="logintest.spec.ts" time="2.647">
+</testcase>
+<testcase name="username correcte &amp; mot de passe correct" classname="logintest.spec.ts" time="4.037">
+</testcase>
+<testcase name="username incorrecte &amp; mot de passe correct" classname="logintest.spec.ts" time="4.063">
+</testcase>
+</testsuite>
+<testsuite name="logout.spec.ts" timestamp="2025-03-11T11:34:12.274Z" hostname="webkit" tests="1" failures="0" skipped="0" time="5.216" errors="0">
+<testcase name="Se déconnecter et vérifier la redirection" classname="logout.spec.ts" time="5.216">
+</testcase>
+</testsuite>
+<testsuite name="products.spec.ts" timestamp="2025-03-11T11:34:12.274Z" hostname="webkit" tests="2" failures="0" skipped="0" time="6.795" errors="0">
+<testcase name="Vérifier que les produits sont affichés" classname="products.spec.ts" time="2.999">
+</testcase>
+<testcase name="Ajouter un produit au panier et vérifier le badge" classname="products.spec.ts" time="3.796">
+</testcase>
+</testsuite>
+</testsuites>

@@ -1,0 +1,1759 @@
+{
+  "config": {
+    "configFile": "C:\\Users\\Admin\\Downloads\\playrightprojetc\\playwright.config.ts",
+    "rootDir": "C:/Users/Admin/Downloads/playrightprojetc/tests",
+    "forbidOnly": false,
+    "fullyParallel": true,
+    "globalSetup": null,
+    "globalTeardown": null,
+    "globalTimeout": 0,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "metadata": {
+      "actualWorkers": 4
+    },
+    "preserveOutput": "always",
+    "reporter": [
+      [
+        "html",
+        null
+      ],
+      [
+        "list",
+        null
+      ],
+      [
+        "json",
+        {
+          "outputFile": "test-results.json"
+        }
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 300000
+    },
+    "quiet": false,
+    "projects": [
+      {
+        "outputDir": "C:/Users/Admin/Downloads/playrightprojetc/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 4
+        },
+        "id": "chromium",
+        "name": "chromium",
+        "testDir": "C:/Users/Admin/Downloads/playrightprojetc/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 30000
+      },
+      {
+        "outputDir": "C:/Users/Admin/Downloads/playrightprojetc/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 4
+        },
+        "id": "firefox",
+        "name": "firefox",
+        "testDir": "C:/Users/Admin/Downloads/playrightprojetc/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 30000
+      },
+      {
+        "outputDir": "C:/Users/Admin/Downloads/playrightprojetc/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 4
+        },
+        "id": "webkit",
+        "name": "webkit",
+        "testDir": "C:/Users/Admin/Downloads/playrightprojetc/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 30000
+      }
+    ],
+    "shard": null,
+    "updateSnapshots": "missing",
+    "updateSourceMethod": "patch",
+    "version": "1.51.0",
+    "workers": 4,
+    "webServer": null
+  },
+  "suites": [
+    {
+      "title": "carttest.spec.ts",
+      "file": "carttest.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "Vérifier que le panier contient un produit",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 2774,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2025-03-11T11:26:56.087Z",
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "3d5dda3ae6af4bdfd362-5fa3503c4d8967921f84",
+          "file": "carttest.spec.ts",
+          "line": 16,
+          "column": 5
+        },
+        {
+          "title": "Supprimer un produit du panier",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 3371,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2025-03-11T11:26:56.032Z",
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "3d5dda3ae6af4bdfd362-204fc36bbd5dd8263a8b",
+          "file": "carttest.spec.ts",
+          "line": 22,
+          "column": 5
+        },
+        {
+          "title": "Continuer les achats depuis le panier",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "parallelIndex": 2,
+                  "status": "passed",
+                  "duration": 3326,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2025-03-11T11:26:56.230Z",
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "3d5dda3ae6af4bdfd362-a8f48a06c47660b1d8f0",
+          "file": "carttest.spec.ts",
+          "line": 28,
+          "column": 5
+        },
+        {
+          "title": "Aller à la page de checkout",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 3,
+                  "parallelIndex": 3,
+                  "status": "passed",
+                  "duration": 2766,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2025-03-11T11:26:56.217Z",
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "3d5dda3ae6af4bdfd362-1a5350c3521352fa506e",
+          "file": "carttest.spec.ts",
+          "line": 34,
+          "column": 5
+        },
+        {
+          "title": "Vérifier que le panier contient un produit",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "firefox",
+              "projectName": "firefox",
+              "results": [
+                {
+                  "workerIndex": 4,
+                  "parallelIndex": 3,
+                  "status": "passed",
+                  "duration": 27370,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2025-03-11T11:27:20.107Z",
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "3d5dda3ae6af4bdfd362-43a1ea2b086e1e49d7d4",
+          "file": "carttest.spec.ts",
+          "line": 16,
+          "column": 5
+        },
+        {
+          "title": "Supprimer un produit du panier",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "firefox",
+              "projectName": "firefox",
+              "results": [
+                {
+                  "workerIndex": 7,
+                  "parallelIndex": 0,
+                  "status": "interrupted",
+                  "duration": 20459,
+                  "error": {
+                    "message": "Error: page.goto: Target page, context or browser has been closed\nCall log:\n\u001b[2m  - navigating to \"https://www.saucedemo.com/\", waiting until \"load\"\u001b[22m\n",
+                    "stack": "Error: page.goto: Target page, context or browser has been closed\nCall log:\n\u001b[2m  - navigating to \"https://www.saucedemo.com/\", waiting until \"load\"\u001b[22m\n\n    at LoginPage.goto (C:\\Users\\Admin\\Downloads\\playrightprojetc\\pages\\login.page.ts:27:21)\n    at C:\\Users\\Admin\\Downloads\\playrightprojetc\\tests\\carttest.spec.ts:8:19",
+                    "location": {
+                      "file": "C:\\Users\\Admin\\Downloads\\playrightprojetc\\pages\\login.page.ts",
+                      "column": 21,
+                      "line": 27
+                    },
+                    "snippet": "\u001b[90m   at \u001b[39m..\\pages\\login.page.ts:27\n\n\u001b[0m \u001b[90m 25 |\u001b[39m     }\n \u001b[90m 26 |\u001b[39m   \u001b[36masync\u001b[39m goto() {\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 27 |\u001b[39m     \u001b[36mawait\u001b[39m \u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mpage\u001b[33m.\u001b[39mgoto(\u001b[32m'https://www.saucedemo.com/'\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                     \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 28 |\u001b[39m   }\n \u001b[90m 29 |\u001b[39m\n \u001b[90m 30 |\u001b[39m   \u001b[90m// async verifyTitle() {\u001b[39m\u001b[0m"
+                  },
+                  "errors": [
+                    {
+                      "location": {
+                        "file": "C:\\Users\\Admin\\Downloads\\playrightprojetc\\pages\\login.page.ts",
+                        "column": 21,
+                        "line": 27
+                      },
+                      "message": "Error: page.goto: Target page, context or browser has been closed\nCall log:\n\u001b[2m  - navigating to \"https://www.saucedemo.com/\", waiting until \"load\"\u001b[22m\n\n\n\u001b[90m   at \u001b[39m..\\pages\\login.page.ts:27\n\n\u001b[0m \u001b[90m 25 |\u001b[39m     }\n \u001b[90m 26 |\u001b[39m   \u001b[36masync\u001b[39m goto() {\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 27 |\u001b[39m     \u001b[36mawait\u001b[39m \u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mpage\u001b[33m.\u001b[39mgoto(\u001b[32m'https://www.saucedemo.com/'\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                     \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 28 |\u001b[39m   }\n \u001b[90m 29 |\u001b[39m\n \u001b[90m 30 |\u001b[39m   \u001b[90m// async verifyTitle() {\u001b[39m\u001b[0m\n\u001b[2m    at LoginPage.goto (C:\\Users\\Admin\\Downloads\\playrightprojetc\\pages\\login.page.ts:27:21)\u001b[22m\n\u001b[2m    at C:\\Users\\Admin\\Downloads\\playrightprojetc\\tests\\carttest.spec.ts:8:19\u001b[22m"
+                    },
+                    {
+                      "message": "Error: browserContext._wrapApiCall: Target page, context or browser has been closed"
+                    }
+                  ],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2025-03-11T11:27:22.062Z",
+                  "attachments": [
+                    {
+                      "name": "_prompt-0",
+                      "contentType": "text/markdown",
+                      "body": "IyBJbnN0cnVjdGlvbnMKCi0gRm9sbG93aW5nIFBsYXl3cmlnaHQgdGVzdCBmYWlsZWQuCi0gRXhwbGFpbiB3aHksIGJlIGNvbmNpc2UsIHJlc3BlY3QgUGxheXdyaWdodCBiZXN0IHByYWN0aWNlcy4KLSBQcm92aWRlIGEgc25pcHBldCBvZiBjb2RlIHdpdGggdGhlIGZpeCwgaWYgcG9zc2libGUuCgojIFRlc3QgaW5mbwoKLSBOYW1lOiBTdXBwcmltZXIgdW4gcHJvZHVpdCBkdSBwYW5pZXIKLSBMb2NhdGlvbjogQzpcVXNlcnNcQWRtaW5cRG93bmxvYWRzXHBsYXlyaWdodHByb2pldGNcdGVzdHNcY2FydHRlc3Quc3BlYy50czoyMjo1CgojIEVycm9yIGRldGFpbHMKCmBgYApFcnJvcjogcGFnZS5nb3RvOiBUYXJnZXQgcGFnZSwgY29udGV4dCBvciBicm93c2VyIGhhcyBiZWVuIGNsb3NlZApDYWxsIGxvZzoKICAtIG5hdmlnYXRpbmcgdG8gImh0dHBzOi8vd3d3LnNhdWNlZGVtby5jb20vIiwgd2FpdGluZyB1bnRpbCAibG9hZCIKCiAgICBhdCBMb2dpblBhZ2UuZ290byAoQzpcVXNlcnNcQWRtaW5cRG93bmxvYWRzXHBsYXlyaWdodHByb2pldGNccGFnZXNcbG9naW4ucGFnZS50czoyNzoyMSkKICAgIGF0IEM6XFVzZXJzXEFkbWluXERvd25sb2Fkc1xwbGF5cmlnaHRwcm9qZXRjXHRlc3RzXGNhcnR0ZXN0LnNwZWMudHM6ODoxOQpgYGAKCiMgVGVzdCBzb3VyY2UKCmBgYHRzCiAgIDEgfCBpbXBvcnQgeyBQYWdlLCBleHBlY3QgfSBmcm9tICdAcGxheXdyaWdodC90ZXN0JzsKICAgMiB8IGltcG9ydCB7IGVycm9yIH0gZnJvbSAnY29uc29sZSc7CiAgIDMgfCBleHBvcnQgY2xhc3MgTG9naW5QYWdlIHsKICAgNCB8ICAgcmVhZG9ubHkgcGFnZTogUGFnZTsKICAgNSB8IC8vb24gZmFpdCBkZXMgZXhwZWN0CiAgIDYgfCAgIGNvbnN0cnVjdG9yKHBhZ2U6IFBhZ2UpIHsKICAgNyB8ICAgICB0aGlzLnBhZ2UgPSBwYWdlOwogICA4IHwgICB9CiAgIDkgfAogIDEwIHwgICBFbGVtZW50ID0gewogIDExIHwgICAgIHVzZXJuYW1lOiAoKSA9PiB0aGlzLnBhZ2UubG9jYXRvcignaW5wdXRbbmFtZT0idXNlci1uYW1lIl0nKSwKICAxMiB8ICAgICBwYXNzd29yZDogKCkgPT4gdGhpcy5wYWdlLmxvY2F0b3IoJ2lucHV0W25hbWU9InBhc3N3b3JkIl0nKSwKICAxMyB8ICAgICBsb2dpbkJ1dHRvbjogKCkgPT4gdGhpcy5wYWdlLmxvY2F0b3IoJ2lucHV0W3R5cGU9InN1Ym1pdCJdJyksCiAgMTQgfCAgICAgZXJyb3JNZXNzYWdlOiAoKSA9PiB0aGlzLnBhZ2UubG9jYXRvcignaDNbZGF0YS10ZXN0PSJlcnJvciJdJykKICAxNSB8ICAgfQogIDE2IHwKICAxNyB8ICAgYXN5bmMgc2Fpc2lyVXNlcm5hbWUodXNlcm5hbWU6IHN0cmluZykgewogIDE4IHwgICAgIGF3YWl0IHRoaXMuRWxlbWVudC51c2VybmFtZSgpLmZpbGwodXNlcm5hbWUpOwogIDE5IHwgICAgIH0KICAyMCB8ICAgICBhc3luYyBzYWlzaXJQYXNzd29yZChwYXNzd29yZDogc3RyaW5nKSB7ICAgIAogIDIxIHwgICAgIGF3YWl0IHRoaXMuRWxlbWVudC5wYXNzd29yZCgpLmZpbGwocGFzc3dvcmQpOwogIDIyIHwgICAgIH0KICAyMyB8ICAgICBhc3luYyBjbGlja0xvZ2luQnV0dG9uKCkgewogIDI0IHwgICAgIGF3YWl0IHRoaXMuRWxlbWVudC5sb2dpbkJ1dHRvbigpLmNsaWNrKCk7CiAgMjUgfCAgICAgfQogIDI2IHwgICBhc3luYyBnb3RvKCkgewo+IDI3IHwgICAgIGF3YWl0IHRoaXMucGFnZS5nb3RvKCdodHRwczovL3d3dy5zYXVjZWRlbW8uY29tLycpOwogICAgIHwgICAgICAgICAgICAgICAgICAgICBeIEVycm9yOiBwYWdlLmdvdG86IFRhcmdldCBwYWdlLCBjb250ZXh0IG9yIGJyb3dzZXIgaGFzIGJlZW4gY2xvc2VkCiAgMjggfCAgIH0KICAyOSB8CiAgMzAgfCAgIC8vIGFzeW5jIHZlcmlmeVRpdGxlKCkgewogIDMxIHwgICAvLyAgIGF3YWl0IGV4cGVjdCh0aGlzLnBhZ2UpLnRvSGF2ZVRpdGxlKC9Td2FnIExhYnMvKTsKICAzMiB8ICAgLy8gfQogIDMzIHwgICBhc3luYyB2ZXJpZnlFcnJvck1lc3NhZ2UoKSB7CiAgMzQgfCAgICAgcmV0dXJuIGF3YWl0IHRoaXMuRWxlbWVudC5lcnJvck1lc3NhZ2UoKQogIDM1IHwgICB9CiAgMzYgfCAvLyAgIGFzeW5jIGxvZ2luKHVzZXJuYW1lOiBzdHJpbmcsIHBhc3N3b3JkOiBzdHJpbmcpIHsKICAzNyB8IC8vICAgICBhd2FpdCB0aGlzLnBhZ2UuZmlsbCgnI3VzZXItbmFtZScsIHVzZXJuYW1lKTsKICAzOCB8IC8vICAgICBhd2FpdCB0aGlzLnBhZ2UuZmlsbCgnI3Bhc3N3b3JkJywgcGFzc3dvcmQpOwogIDM5IHwgLy8gICAgIGF3YWl0IHRoaXMucGFnZS5nZXRCeVJvbGUoJ2J1dHRvbicsIHsgbmFtZTogJ0xvZ2luJyB9KS5jbGljaygpOwogIDQwIHwgLy8gICB9CiAgNDEgfAogIDQyIHwgLy8gICBhc3luYyB2ZXJpZnlMb2dpblN1Y2Nlc3MoKSB7CiAgNDMgfCAvLyAgICAgYXdhaXQgZXhwZWN0KHRoaXMucGFnZS5sb2NhdG9yKCd0ZXh0PVByb2R1Y3RzJykpLnRvQmVWaXNpYmxlKCk7CiAgNDQgfCAvLyB9CiAgNDUgfCB9CiAgNDYgfAogIDQ3IHwgZXhwb3J0IGRlZmF1bHQgTG9naW5QYWdlOwpgYGA="
+                    }
+                  ],
+                  "errorLocation": {
+                    "file": "C:\\Users\\Admin\\Downloads\\playrightprojetc\\pages\\login.page.ts",
+                    "column": 21,
+                    "line": 27
+                  }
+                }
+              ],
+              "status": "skipped"
+            }
+          ],
+          "id": "3d5dda3ae6af4bdfd362-4456817cd48725585c9e",
+          "file": "carttest.spec.ts",
+          "line": 22,
+          "column": 5
+        },
+        {
+          "title": "Continuer les achats depuis le panier",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "firefox",
+              "projectName": "firefox",
+              "results": [
+                {
+                  "workerIndex": 5,
+                  "parallelIndex": 2,
+                  "status": "interrupted",
+                  "duration": 27142,
+                  "error": {
+                    "message": "Error: browserContext._wrapApiCall: Test ended.\nBrowser logs:\n\n<launching> C:\\Users\\Admin\\AppData\\Local\\ms-playwright\\firefox-1475\\firefox\\firefox.exe -no-remote -headless -profile C:\\Users\\Admin\\AppData\\Local\\Temp\\playwright_firefoxdev_profile-qSq8cq -juggler-pipe -silent\n<launched> pid=17760\n[pid=17760][err] *** You are running in headless mode.\n[pid=17760][err] JavaScript warning: resource://services-settings/Utils.sys.mjs, line 116: unreachable code after return statement\n[pid=17760][out] console.warn: services.settings: Ignoring preference override of remote settings server\n[pid=17760][out] console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment\n[pid=17760][out] \n[pid=17760][out] Juggler listening to the pipe\n[pid=17760][out] Crash Annotation GraphicsCriticalError: |[0][GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt (t=49.3491) [GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt\n[pid=17760][err] JavaScript error: chrome://juggler/content/Helper.js, line 82: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIWebProgress.removeProgressListener]\n[pid=17760][out] console.error: SearchEngineSelector: \"Received empty search configuration!\"\n[pid=17760][out] console.error: \"Received empty top sites configuration!\"\n[pid=17760][out] console.error: SearchEngineSelector: \"Received empty search configuration!\"\n[pid=17760][out] console.error: SearchService: \"#init: failure initializing search:\" ({})\n[pid=17760][err] JavaScript error: resource://gre/modules/SearchEngineSelector.sys.mjs, line 88: NS_ERROR_UNEXPECTED: Failed to get engine data from Remote Settings\n[pid=17760][err] JavaScript error: resource://gre/modules/SearchEngineSelector.sys.mjs, line 88: NS_ERROR_UNEXPECTED: Failed to get engine data from Remote Settings\n[pid=17760][err] JavaScript error: resource://gre/modules/SearchEngineSelector.sys.mjs, line 88: NS_ERROR_UNEXPECTED: Failed to get engine data from Remote Settings\n[pid=17760][err] JavaScript error: resource://gre/modules/SearchEngineSelector.sys.mjs, line 88: NS_ERROR_UNEXPECTED: Failed to get engine data from Remote Settings\n[pid=17760][out] console.error: \"Received empty top sites configuration!\"\n[pid=17760][out] console.error: WebExtensions: \n[pid=17760][out]   Message: [Exception... \"Failed to get engine data from Remote Settings\"  nsresult: \"0x8000ffff (NS_ERROR_UNEXPECTED)\"  location: \"JS frame :: resource://gre/modules/SearchEngineSelector.sys.mjs :: getEngineConfiguration :: line 88\"  data: no]\n[pid=17760][out]   Stack:\n[pid=17760][out]     getEngineConfiguration@resource://gre/modules/SearchEngineSelector.sys.mjs:88:24\n[pid=17760][out] \n[pid=17760][out] console.error: URLBar - Provider.UrlbarProviderSearchTips: ({})\n[pid=17760][out] console.error: ({})\n[pid=17760][out] console.warn: LoginRecipes: \"Falling back to a synchronous message for: https://www.saucedemo.com.\"\n[pid=17760][out] console.warn: LoginRecipes: \"Falling back to a synchronous message for: https://www.saucedemo.com.\"",
+                    "stack": "Error: browserContext._wrapApiCall: Test ended.\nBrowser logs:\n\n<launching> C:\\Users\\Admin\\AppData\\Local\\ms-playwright\\firefox-1475\\firefox\\firefox.exe -no-remote -headless -profile C:\\Users\\Admin\\AppData\\Local\\Temp\\playwright_firefoxdev_profile-qSq8cq -juggler-pipe -silent\n<launched> pid=17760\n[pid=17760][err] *** You are running in headless mode.\n[pid=17760][err] JavaScript warning: resource://services-settings/Utils.sys.mjs, line 116: unreachable code after return statement\n[pid=17760][out] console.warn: services.settings: Ignoring preference override of remote settings server\n[pid=17760][out] console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment\n[pid=17760][out] \n[pid=17760][out] Juggler listening to the pipe\n[pid=17760][out] Crash Annotation GraphicsCriticalError: |[0][GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt (t=49.3491) [GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt\n[pid=17760][err] JavaScript error: chrome://juggler/content/Helper.js, line 82: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIWebProgress.removeProgressListener]\n[pid=17760][out] console.error: SearchEngineSelector: \"Received empty search configuration!\"\n[pid=17760][out] console.error: \"Received empty top sites configuration!\"\n[pid=17760][out] console.error: SearchEngineSelector: \"Received empty search configuration!\"\n[pid=17760][out] console.error: SearchService: \"#init: failure initializing search:\" ({})\n[pid=17760][err] JavaScript error: resource://gre/modules/SearchEngineSelector.sys.mjs, line 88: NS_ERROR_UNEXPECTED: Failed to get engine data from Remote Settings\n[pid=17760][err] JavaScript error: resource://gre/modules/SearchEngineSelector.sys.mjs, line 88: NS_ERROR_UNEXPECTED: Failed to get engine data from Remote Settings\n[pid=17760][err] JavaScript error: resource://gre/modules/SearchEngineSelector.sys.mjs, line 88: NS_ERROR_UNEXPECTED: Failed to get engine data from Remote Settings\n[pid=17760][err] JavaScript error: resource://gre/modules/SearchEngineSelector.sys.mjs, line 88: NS_ERROR_UNEXPECTED: Failed to get engine data from Remote Settings\n[pid=17760][out] console.error: \"Received empty top sites configuration!\"\n[pid=17760][out] console.error: WebExtensions: \n[pid=17760][out]   Message: [Exception... \"Failed to get engine data from Remote Settings\"  nsresult: \"0x8000ffff (NS_ERROR_UNEXPECTED)\"  location: \"JS frame :: resource://gre/modules/SearchEngineSelector.sys.mjs :: getEngineConfiguration :: line 88\"  data: no]\n[pid=17760][out]   Stack:\n[pid=17760][out]     getEngineConfiguration@resource://gre/modules/SearchEngineSelector.sys.mjs:88:24\n[pid=17760][out] \n[pid=17760][out] console.error: URLBar - Provider.UrlbarProviderSearchTips: ({})\n[pid=17760][out] console.error: ({})\n[pid=17760][out] console.warn: LoginRecipes: \"Falling back to a synchronous message for: https://www.saucedemo.com.\"\n[pid=17760][out] console.warn: LoginRecipes: \"Falling back to a synchronous message for: https://www.saucedemo.com.\""
+                  },
+                  "errors": [
+                    {
+                      "message": "Error: browserContext._wrapApiCall: Test ended.\nBrowser logs:\n\n<launching> C:\\Users\\Admin\\AppData\\Local\\ms-playwright\\firefox-1475\\firefox\\firefox.exe -no-remote -headless -profile C:\\Users\\Admin\\AppData\\Local\\Temp\\playwright_firefoxdev_profile-qSq8cq -juggler-pipe -silent\n<launched> pid=17760\n[pid=17760][err] *** You are running in headless mode.\n[pid=17760][err] JavaScript warning: resource://services-settings/Utils.sys.mjs, line 116: unreachable code after return statement\n[pid=17760][out] console.warn: services.settings: Ignoring preference override of remote settings server\n[pid=17760][out] console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment\n[pid=17760][out] \n[pid=17760][out] Juggler listening to the pipe\n[pid=17760][out] Crash Annotation GraphicsCriticalError: |[0][GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt (t=49.3491) [GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt\n[pid=17760][err] JavaScript error: chrome://juggler/content/Helper.js, line 82: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIWebProgress.removeProgressListener]\n[pid=17760][out] console.error: SearchEngineSelector: \"Received empty search configuration!\"\n[pid=17760][out] console.error: \"Received empty top sites configuration!\"\n[pid=17760][out] console.error: SearchEngineSelector: \"Received empty search configuration!\"\n[pid=17760][out] console.error: SearchService: \"#init: failure initializing search:\" ({})\n[pid=17760][err] JavaScript error: resource://gre/modules/SearchEngineSelector.sys.mjs, line 88: NS_ERROR_UNEXPECTED: Failed to get engine data from Remote Settings\n[pid=17760][err] JavaScript error: resource://gre/modules/SearchEngineSelector.sys.mjs, line 88: NS_ERROR_UNEXPECTED: Failed to get engine data from Remote Settings\n[pid=17760][err] JavaScript error: resource://gre/modules/SearchEngineSelector.sys.mjs, line 88: NS_ERROR_UNEXPECTED: Failed to get engine data from Remote Settings\n[pid=17760][err] JavaScript error: resource://gre/modules/SearchEngineSelector.sys.mjs, line 88: NS_ERROR_UNEXPECTED: Failed to get engine data from Remote Settings\n[pid=17760][out] console.error: \"Received empty top sites configuration!\"\n[pid=17760][out] console.error: WebExtensions: \n[pid=17760][out]   Message: [Exception... \"Failed to get engine data from Remote Settings\"  nsresult: \"0x8000ffff (NS_ERROR_UNEXPECTED)\"  location: \"JS frame :: resource://gre/modules/SearchEngineSelector.sys.mjs :: getEngineConfiguration :: line 88\"  data: no]\n[pid=17760][out]   Stack:\n[pid=17760][out]     getEngineConfiguration@resource://gre/modules/SearchEngineSelector.sys.mjs:88:24\n[pid=17760][out] \n[pid=17760][out] console.error: URLBar - Provider.UrlbarProviderSearchTips: ({})\n[pid=17760][out] console.error: ({})\n[pid=17760][out] console.warn: LoginRecipes: \"Falling back to a synchronous message for: https://www.saucedemo.com.\"\n[pid=17760][out] console.warn: LoginRecipes: \"Falling back to a synchronous message for: https://www.saucedemo.com.\""
+                    },
+                    {
+                      "location": {
+                        "file": "[pid=17760][out]     getEngineConfiguration@resource://gre/modules/SearchEngineSelector.sys.mjs",
+                        "column": 24,
+                        "line": 88
+                      },
+                      "message": "Error: locator.click: Test ended.\nBrowser logs:\n\n<launching> C:\\Users\\Admin\\AppData\\Local\\ms-playwright\\firefox-1475\\firefox\\firefox.exe -no-remote -headless -profile C:\\Users\\Admin\\AppData\\Local\\Temp\\playwright_firefoxdev_profile-qSq8cq -juggler-pipe -silent\n<launched> pid=17760\n[pid=17760][err] *** You are running in headless mode.\n[pid=17760][err] JavaScript warning: resource://services-settings/Utils.sys.mjs, line 116: unreachable code after return statement\n[pid=17760][out] console.warn: services.settings: Ignoring preference override of remote settings server\n[pid=17760][out] console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment\n[pid=17760][out] \n[pid=17760][out] Juggler listening to the pipe\n[pid=17760][out] Crash Annotation GraphicsCriticalError: |[0][GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt (t=49.3491) [GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt\n[pid=17760][err] JavaScript error: chrome://juggler/content/Helper.js, line 82: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIWebProgress.removeProgressListener]\n[pid=17760][out] console.error: SearchEngineSelector: \"Received empty search configuration!\"\n[pid=17760][out] console.error: \"Received empty top sites configuration!\"\n[pid=17760][out] console.error: SearchEngineSelector: \"Received empty search configuration!\"\n[pid=17760][out] console.error: SearchService: \"#init: failure initializing search:\" ({})\n[pid=17760][err] JavaScript error: resource://gre/modules/SearchEngineSelector.sys.mjs, line 88: NS_ERROR_UNEXPECTED: Failed to get engine data from Remote Settings\n[pid=17760][err] JavaScript error: resource://gre/modules/SearchEngineSelector.sys.mjs, line 88: NS_ERROR_UNEXPECTED: Failed to get engine data from Remote Settings\n[pid=17760][err] JavaScript error: resource://gre/modules/SearchEngineSelector.sys.mjs, line 88: NS_ERROR_UNEXPECTED: Failed to get engine data from Remote Settings\n[pid=17760][err] JavaScript error: resource://gre/modules/SearchEngineSelector.sys.mjs, line 88: NS_ERROR_UNEXPECTED: Failed to get engine data from Remote Settings\n[pid=17760][out] console.error: \"Received empty top sites configuration!\"\n[pid=17760][out] console.error: WebExtensions: \n[pid=17760][out]   Message: [Exception... \"Failed to get engine data from Remote Settings\"  nsresult: \"0x8000ffff (NS_ERROR_UNEXPECTED)\"  location: \"JS frame :: resource://gre/modules/SearchEngineSelector.sys.mjs :: getEngineConfiguration :: line 88\"  data: no]\n[pid=17760][out]   Stack:\n[pid=17760][out]     getEngineConfiguration@resource://gre/modules/SearchEngineSelector.sys.mjs:88:24\n[pid=17760][out] \n[pid=17760][out] console.error: URLBar - Provider.UrlbarProviderSearchTips: ({})\n[pid=17760][out] console.error: ({})\n[pid=17760][out] console.warn: LoginRecipes: \"Falling back to a synchronous message for: https://www.saucedemo.com.\"\n[pid=17760][out] console.warn: LoginRecipes: \"Falling back to a synchronous message for: https://www.saucedemo.com.\"\nCall log:\n\u001b[2m  - waiting for locator('input[type=\"submit\"]')\u001b[22m\n\u001b[2m    - locator resolved to <input type=\"submit\" value=\"Login\" id=\"login-button\" name=\"login-button\" data-test=\"login-button\" class=\"submit-button btn_action\"/>\u001b[22m\n\u001b[2m  - attempting click action\u001b[22m\n\u001b[2m    - waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m    - element is visible, enabled and stable\u001b[22m\n\u001b[2m    - scrolling into view if needed\u001b[22m\n\u001b[2m    - done scrolling\u001b[22m\n\u001b[2m    - performing click action\u001b[22m\n\n\u001b[2m    at [pid=17760][out]     getEngineConfiguration@resource://gre/modules/SearchEngineSelector.sys.mjs:88:24\u001b[22m\n\u001b[2m    at LoginPage.clickLoginButton (C:\\Users\\Admin\\Downloads\\playrightprojetc\\pages\\login.page.ts:24:38)\u001b[22m\n\u001b[2m    at C:\\Users\\Admin\\Downloads\\playrightprojetc\\tests\\carttest.spec.ts:11:19\u001b[22m"
+                    },
+                    {
+                      "message": "Error: ENOENT: no such file or directory, open 'C:\\Users\\Admin\\Downloads\\playrightprojetc\\[pid=17760][out]     getEngineConfiguration@resource:\\gre\\modules\\SearchEngineSelector.sys.mjs'"
+                    }
+                  ],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2025-03-11T11:27:21.975Z",
+                  "attachments": [
+                    {
+                      "name": "_prompt-0",
+                      "contentType": "text/markdown",
+                      "body": "IyBJbnN0cnVjdGlvbnMKCi0gRm9sbG93aW5nIFBsYXl3cmlnaHQgdGVzdCBmYWlsZWQuCi0gRXhwbGFpbiB3aHksIGJlIGNvbmNpc2UsIHJlc3BlY3QgUGxheXdyaWdodCBiZXN0IHByYWN0aWNlcy4KLSBQcm92aWRlIGEgc25pcHBldCBvZiBjb2RlIHdpdGggdGhlIGZpeCwgaWYgcG9zc2libGUuCgojIFRlc3QgaW5mbwoKLSBOYW1lOiBDb250aW51ZXIgbGVzIGFjaGF0cyBkZXB1aXMgbGUgcGFuaWVyCi0gTG9jYXRpb246IEM6XFVzZXJzXEFkbWluXERvd25sb2Fkc1xwbGF5cmlnaHRwcm9qZXRjXHRlc3RzXGNhcnR0ZXN0LnNwZWMudHM6Mjg6NQoKIyBFcnJvciBkZXRhaWxzCgpgYGAKRXJyb3I6IGJyb3dzZXJDb250ZXh0Ll93cmFwQXBpQ2FsbDogVGVzdCBlbmRlZC4KQnJvd3NlciBsb2dzOgoKPGxhdW5jaGluZz4gQzpcVXNlcnNcQWRtaW5cQXBwRGF0YVxMb2NhbFxtcy1wbGF5d3JpZ2h0XGZpcmVmb3gtMTQ3NVxmaXJlZm94XGZpcmVmb3guZXhlIC1uby1yZW1vdGUgLWhlYWRsZXNzIC1wcm9maWxlIEM6XFVzZXJzXEFkbWluXEFwcERhdGFcTG9jYWxcVGVtcFxwbGF5d3JpZ2h0X2ZpcmVmb3hkZXZfcHJvZmlsZS1xU3E4Y3EgLWp1Z2dsZXItcGlwZSAtc2lsZW50CjxsYXVuY2hlZD4gcGlkPTE3NzYwCltwaWQ9MTc3NjBdW2Vycl0gKioqIFlvdSBhcmUgcnVubmluZyBpbiBoZWFkbGVzcyBtb2RlLgpbcGlkPTE3NzYwXVtlcnJdIEphdmFTY3JpcHQgd2FybmluZzogcmVzb3VyY2U6Ly9zZXJ2aWNlcy1zZXR0aW5ncy9VdGlscy5zeXMubWpzLCBsaW5lIDExNjogdW5yZWFjaGFibGUgY29kZSBhZnRlciByZXR1cm4gc3RhdGVtZW50CltwaWQ9MTc3NjBdW291dF0gY29uc29sZS53YXJuOiBzZXJ2aWNlcy5zZXR0aW5nczogSWdub3JpbmcgcHJlZmVyZW5jZSBvdmVycmlkZSBvZiByZW1vdGUgc2V0dGluZ3Mgc2VydmVyCltwaWQ9MTc3NjBdW291dF0gY29uc29sZS53YXJuOiBzZXJ2aWNlcy5zZXR0aW5nczogQWxsb3cgYnkgc2V0dGluZyBNT1pfUkVNT1RFX1NFVFRJTkdTX0RFVlRPT0xTPTEgaW4gdGhlIGVudmlyb25tZW50CltwaWQ9MTc3NjBdW291dF0gCltwaWQ9MTc3NjBdW291dF0gSnVnZ2xlciBsaXN0ZW5pbmcgdG8gdGhlIHBpcGUKW3BpZD0xNzc2MF1bb3V0XSBDcmFzaCBBbm5vdGF0aW9uIEdyYXBoaWNzQ3JpdGljYWxFcnJvcjogfFswXVtHRlgxLV06IFJlbmRlckNvbXBvc2l0b3JTV0dMIGZhaWxlZCBtYXBwaW5nIGRlZmF1bHQgZnJhbWVidWZmZXIsIG5vIGR0ICh0PTQ5LjM0OTEpIFtHRlgxLV06IFJlbmRlckNvbXBvc2l0b3JTV0dMIGZhaWxlZCBtYXBwaW5nIGRlZmF1bHQgZnJhbWVidWZmZXIsIG5vIGR0CltwaWQ9MTc3NjBdW2Vycl0gSmF2YVNjcmlwdCBlcnJvcjogY2hyb21lOi8vanVnZ2xlci9jb250ZW50L0hlbHBlci5qcywgbGluZSA4MjogTlNfRVJST1JfRkFJTFVSRTogQ29tcG9uZW50IHJldHVybmVkIGZhaWx1cmUgY29kZTogMHg4MDAwNDAwNSAoTlNfRVJST1JfRkFJTFVSRSkgW25zSVdlYlByb2dyZXNzLnJlbW92ZVByb2dyZXNzTGlzdGVuZXJdCltwaWQ9MTc3NjBdW291dF0gY29uc29sZS5lcnJvcjogU2VhcmNoRW5naW5lU2VsZWN0b3I6ICJSZWNlaXZlZCBlbXB0eSBzZWFyY2ggY29uZmlndXJhdGlvbiEiCltwaWQ9MTc3NjBdW291dF0gY29uc29sZS5lcnJvcjogIlJlY2VpdmVkIGVtcHR5IHRvcCBzaXRlcyBjb25maWd1cmF0aW9uISIKW3BpZD0xNzc2MF1bb3V0XSBjb25zb2xlLmVycm9yOiBTZWFyY2hFbmdpbmVTZWxlY3RvcjogIlJlY2VpdmVkIGVtcHR5IHNlYXJjaCBjb25maWd1cmF0aW9uISIKW3BpZD0xNzc2MF1bb3V0XSBjb25zb2xlLmVycm9yOiBTZWFyY2hTZXJ2aWNlOiAiI2luaXQ6IGZhaWx1cmUgaW5pdGlhbGl6aW5nIHNlYXJjaDoiICh7fSkKW3BpZD0xNzc2MF1bZXJyXSBKYXZhU2NyaXB0IGVycm9yOiByZXNvdXJjZTovL2dyZS9tb2R1bGVzL1NlYXJjaEVuZ2luZVNlbGVjdG9yLnN5cy5tanMsIGxpbmUgODg6IE5TX0VSUk9SX1VORVhQRUNURUQ6IEZhaWxlZCB0byBnZXQgZW5naW5lIGRhdGEgZnJvbSBSZW1vdGUgU2V0dGluZ3MKW3BpZD0xNzc2MF1bZXJyXSBKYXZhU2NyaXB0IGVycm9yOiByZXNvdXJjZTovL2dyZS9tb2R1bGVzL1NlYXJjaEVuZ2luZVNlbGVjdG9yLnN5cy5tanMsIGxpbmUgODg6IE5TX0VSUk9SX1VORVhQRUNURUQ6IEZhaWxlZCB0byBnZXQgZW5naW5lIGRhdGEgZnJvbSBSZW1vdGUgU2V0dGluZ3MKW3BpZD0xNzc2MF1bZXJyXSBKYXZhU2NyaXB0IGVycm9yOiByZXNvdXJjZTovL2dyZS9tb2R1bGVzL1NlYXJjaEVuZ2luZVNlbGVjdG9yLnN5cy5tanMsIGxpbmUgODg6IE5TX0VSUk9SX1VORVhQRUNURUQ6IEZhaWxlZCB0byBnZXQgZW5naW5lIGRhdGEgZnJvbSBSZW1vdGUgU2V0dGluZ3MKW3BpZD0xNzc2MF1bZXJyXSBKYXZhU2NyaXB0IGVycm9yOiByZXNvdXJjZTovL2dyZS9tb2R1bGVzL1NlYXJjaEVuZ2luZVNlbGVjdG9yLnN5cy5tanMsIGxpbmUgODg6IE5TX0VSUk9SX1VORVhQRUNURUQ6IEZhaWxlZCB0byBnZXQgZW5naW5lIGRhdGEgZnJvbSBSZW1vdGUgU2V0dGluZ3MKW3BpZD0xNzc2MF1bb3V0XSBjb25zb2xlLmVycm9yOiAiUmVjZWl2ZWQgZW1wdHkgdG9wIHNpdGVzIGNvbmZpZ3VyYXRpb24hIgpbcGlkPTE3NzYwXVtvdXRdIGNvbnNvbGUuZXJyb3I6IFdlYkV4dGVuc2lvbnM6IApbcGlkPTE3NzYwXVtvdXRdICAgTWVzc2FnZTogW0V4Y2VwdGlvbi4uLiAiRmFpbGVkIHRvIGdldCBlbmdpbmUgZGF0YSBmcm9tIFJlbW90ZSBTZXR0aW5ncyIgIG5zcmVzdWx0OiAiMHg4MDAwZmZmZiAoTlNfRVJST1JfVU5FWFBFQ1RFRCkiICBsb2NhdGlvbjogIkpTIGZyYW1lIDo6IHJlc291cmNlOi8vZ3JlL21vZHVsZXMvU2VhcmNoRW5naW5lU2VsZWN0b3Iuc3lzLm1qcyA6OiBnZXRFbmdpbmVDb25maWd1cmF0aW9uIDo6IGxpbmUgODgiICBkYXRhOiBub10KW3BpZD0xNzc2MF1bb3V0XSAgIFN0YWNrOgpbcGlkPTE3NzYwXVtvdXRdICAgICBnZXRFbmdpbmVDb25maWd1cmF0aW9uQHJlc291cmNlOi8vZ3JlL21vZHVsZXMvU2VhcmNoRW5naW5lU2VsZWN0b3Iuc3lzLm1qczo4ODoyNApbcGlkPTE3NzYwXVtvdXRdIApbcGlkPTE3NzYwXVtvdXRdIGNvbnNvbGUuZXJyb3I6IFVSTEJhciAtIFByb3ZpZGVyLlVybGJhclByb3ZpZGVyU2VhcmNoVGlwczogKHt9KQpbcGlkPTE3NzYwXVtvdXRdIGNvbnNvbGUuZXJyb3I6ICh7fSkKW3BpZD0xNzc2MF1bb3V0XSBjb25zb2xlLndhcm46IExvZ2luUmVjaXBlczogIkZhbGxpbmcgYmFjayB0byBhIHN5bmNocm9ub3VzIG1lc3NhZ2UgZm9yOiBodHRwczovL3d3dy5zYXVjZWRlbW8uY29tLiIKW3BpZD0xNzc2MF1bb3V0XSBjb25zb2xlLndhcm46IExvZ2luUmVjaXBlczogIkZhbGxpbmcgYmFjayB0byBhIHN5bmNocm9ub3VzIG1lc3NhZ2UgZm9yOiBodHRwczovL3d3dy5zYXVjZWRlbW8uY29tLiIKYGBgCgojIFRlc3Qgc291cmNlCgpgYGB0cwogICAxIHwgaW1wb3J0IHsgdGVzdCwgZXhwZWN0IH0gZnJvbSAnQHBsYXl3cmlnaHQvdGVzdCc7CiAgIDIgfCBpbXBvcnQgeyBMb2dpblBhZ2UgfSBmcm9tICcuLi9wYWdlcy9sb2dpbi5wYWdlJzsKICAgMyB8IGltcG9ydCB7IFByb2R1Y3RzUGFnZSB9IGZyb20gJy4uL3BhZ2VzL3Byb2R1Y3RzLnBhZ2UnOwogICA0IHwgaW1wb3J0IHsgQ2FydFBhZ2UgfSBmcm9tICcuLi9wYWdlcy9jYXJ0LnBhZ2UnOwogICA1IHwKICAgNiB8IHRlc3QuYmVmb3JlRWFjaChhc3luYyAoeyBwYWdlIH0pID0+IHsKICAgNyB8ICAgY29uc3QgbG9naW5QYWdlID0gbmV3IExvZ2luUGFnZShwYWdlKTsKICAgOCB8ICAgYXdhaXQgbG9naW5QYWdlLmdvdG8oKTsKICAgOSB8ICAgYXdhaXQgbG9naW5QYWdlLnNhaXNpclVzZXJuYW1lKCdzdGFuZGFyZF91c2VyJyk7CiAgMTAgfCAgIGF3YWl0IGxvZ2luUGFnZS5zYWlzaXJQYXNzd29yZCgnc2VjcmV0X3NhdWNlJyk7CiAgMTEgfCAgIGF3YWl0IGxvZ2luUGFnZS5jbGlja0xvZ2luQnV0dG9uKCk7CiAgMTIgfCAgIGNvbnN0IHByb2R1Y3RzUGFnZSA9IG5ldyBQcm9kdWN0c1BhZ2UocGFnZSk7ICAvLyBBam91dGVyIHVuIHByb2R1aXQgYXUgcGFuaWVyCiAgMTMgfCAgIGF3YWl0IHByb2R1Y3RzUGFnZS5hZGRGaXJzdFByb2R1Y3RUb0NhcnQoKTsKICAxNCB8ICAgYXdhaXQgcHJvZHVjdHNQYWdlLmdvVG9DYXJ0KCk7CiAgMTUgfCB9KTsKICAxNiB8IHRlc3QoJ1bDqXJpZmllciBxdWUgbGUgcGFuaWVyIGNvbnRpZW50IHVuIHByb2R1aXQnLCBhc3luYyAoeyBwYWdlIH0pID0+IHsKICAxNyB8ICAgY29uc3QgY2FydFBhZ2UgPSBuZXcgQ2FydFBhZ2UocGFnZSk7CiAgMTggfCAgIGNvbnN0IGl0ZW1Db3VudCA9IGF3YWl0IGNhcnRQYWdlLmdldENhcnRJdGVtQ291bnQoKTsKICAxOSB8ICAgZXhwZWN0KGl0ZW1Db3VudCkudG9CZSgxKTsKICAyMCB8IH0pOwogIDIxIHwKICAyMiB8IHRlc3QoJ1N1cHByaW1lciB1biBwcm9kdWl0IGR1IHBhbmllcicsIGFzeW5jICh7IHBhZ2UgfSkgPT4gewogIDIzIHwgICBjb25zdCBjYXJ0UGFnZSA9IG5ldyBDYXJ0UGFnZShwYWdlKTsKICAyNCB8ICAgYXdhaXQgY2FydFBhZ2UucmVtb3ZlRmlyc3RJdGVtKCk7CiAgMjUgfCAgIGNvbnN0IGl0ZW1Db3VudCA9IGF3YWl0IGNhcnRQYWdlLmdldENhcnRJdGVtQ291bnQoKTsKICAyNiB8ICAgZXhwZWN0KGl0ZW1Db3VudCkudG9CZSgwKTsKICAyNyB8IH0pOwo+IDI4IHwgdGVzdCgnQ29udGludWVyIGxlcyBhY2hhdHMgZGVwdWlzIGxlIHBhbmllcicsIGFzeW5jICh7IHBhZ2UgfSkgPT4gewogICAgIHwgICAgIF4gRXJyb3I6IGJyb3dzZXJDb250ZXh0Ll93cmFwQXBpQ2FsbDogVGVzdCBlbmRlZC4KICAyOSB8ICAgY29uc3QgY2FydFBhZ2UgPSBuZXcgQ2FydFBhZ2UocGFnZSk7CiAgMzAgfCAgIGF3YWl0IGNhcnRQYWdlLmNsaWNrQ29udGludWVTaG9wcGluZygpOwogIDMxIHwgICBleHBlY3QocGFnZS51cmwoKSkudG9CZSgnaHR0cHM6Ly93d3cuc2F1Y2VkZW1vLmNvbS9pbnZlbnRvcnkuaHRtbCcpOyAgLy8gVsOpcmlmaWVyIHF1ZSBsJ29uIGVzdCByZXZlbnUgw6AgbGEgcGFnZSBkZXMgcHJvZHVpdHMKICAzMiB8IC8vICAgZXhwZWN0KHBhZ2UudXJsKCkpLnRvQmUoJ2h0dHBzOi8vd3d3LnNhdWNlZGVtby5jb20vY2FydC5odG1sJyk7ICAvLyBWw6lyaWZpZXIgcXVlIGwnb24gZXN0IHJldmVudSDDoCBsYSBwYWdlIGRlcyBwcm9kdWl0cwogIDMzIHwgfSk7CiAgMzQgfCB0ZXN0KCdBbGxlciDDoCBsYSBwYWdlIGRlIGNoZWNrb3V0JywgYXN5bmMgKHsgcGFnZSB9KSA9PiB7CiAgMzUgfCAgIGNvbnN0IGNhcnRQYWdlID0gbmV3IENhcnRQYWdlKHBhZ2UpOwogIDM2IHwgICBhd2FpdCBjYXJ0UGFnZS5jbGlja0NoZWNrb3V0KCk7CiAgMzcgfCAgIGV4cGVjdChwYWdlLnVybCgpKS50b0JlKCdodHRwczovL3d3dy5zYXVjZWRlbW8uY29tL2NoZWNrb3V0LXN0ZXAtb25lLmh0bWwnKTsgIC8vIFbDqXJpZmllciBxdWUgbCdvbiBlc3Qgc3VyIGxhIHBhZ2UgZGUgY2hlY2tvdXQKICAzOCB8IH0pOwogIDM5IHwKYGBg"
+                    }
+                  ]
+                }
+              ],
+              "status": "skipped"
+            }
+          ],
+          "id": "3d5dda3ae6af4bdfd362-d9116f3bfebceb2571f3",
+          "file": "carttest.spec.ts",
+          "line": 28,
+          "column": 5
+        },
+        {
+          "title": "Aller à la page de checkout",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "firefox",
+              "projectName": "firefox",
+              "results": [
+                {
+                  "workerIndex": 6,
+                  "parallelIndex": 1,
+                  "status": "skipped",
+                  "duration": 0,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2025-03-11T11:27:22.021Z",
+                  "attachments": [
+                    {
+                      "name": "_prompt-0",
+                      "contentType": "text/markdown",
+                      "body": "IyBJbnN0cnVjdGlvbnMKCi0gRm9sbG93aW5nIFBsYXl3cmlnaHQgdGVzdCBmYWlsZWQuCi0gRXhwbGFpbiB3aHksIGJlIGNvbmNpc2UsIHJlc3BlY3QgUGxheXdyaWdodCBiZXN0IHByYWN0aWNlcy4KLSBQcm92aWRlIGEgc25pcHBldCBvZiBjb2RlIHdpdGggdGhlIGZpeCwgaWYgcG9zc2libGUuCgojIFRlc3QgaW5mbwoKLSBOYW1lOiBBbGxlciDDoCBsYSBwYWdlIGRlIGNoZWNrb3V0Ci0gTG9jYXRpb246IEM6XFVzZXJzXEFkbWluXERvd25sb2Fkc1xwbGF5cmlnaHRwcm9qZXRjXHRlc3RzXGNhcnR0ZXN0LnNwZWMudHM6MzQ6NQoKIyBFcnJvciBkZXRhaWxzCgpgYGAKRXJyb3I6IHBhZ2UuZ290bzogVGVzdCBlbmRlZC4KQ2FsbCBsb2c6CiAgLSBuYXZpZ2F0aW5nIHRvICJodHRwczovL3d3dy5zYXVjZWRlbW8uY29tLyIsIHdhaXRpbmcgdW50aWwgImxvYWQiCgogICAgYXQgTG9naW5QYWdlLmdvdG8gKEM6XFVzZXJzXEFkbWluXERvd25sb2Fkc1xwbGF5cmlnaHRwcm9qZXRjXHBhZ2VzXGxvZ2luLnBhZ2UudHM6Mjc6MjEpCiAgICBhdCBDOlxVc2Vyc1xBZG1pblxEb3dubG9hZHNccGxheXJpZ2h0cHJvamV0Y1x0ZXN0c1xjYXJ0dGVzdC5zcGVjLnRzOjg6MTkKYGBgCgojIFRlc3Qgc291cmNlCgpgYGB0cwogICAxIHwgaW1wb3J0IHsgUGFnZSwgZXhwZWN0IH0gZnJvbSAnQHBsYXl3cmlnaHQvdGVzdCc7CiAgIDIgfCBpbXBvcnQgeyBlcnJvciB9IGZyb20gJ2NvbnNvbGUnOwogICAzIHwgZXhwb3J0IGNsYXNzIExvZ2luUGFnZSB7CiAgIDQgfCAgIHJlYWRvbmx5IHBhZ2U6IFBhZ2U7CiAgIDUgfCAvL29uIGZhaXQgZGVzIGV4cGVjdAogICA2IHwgICBjb25zdHJ1Y3RvcihwYWdlOiBQYWdlKSB7CiAgIDcgfCAgICAgdGhpcy5wYWdlID0gcGFnZTsKICAgOCB8ICAgfQogICA5IHwKICAxMCB8ICAgRWxlbWVudCA9IHsKICAxMSB8ICAgICB1c2VybmFtZTogKCkgPT4gdGhpcy5wYWdlLmxvY2F0b3IoJ2lucHV0W25hbWU9InVzZXItbmFtZSJdJyksCiAgMTIgfCAgICAgcGFzc3dvcmQ6ICgpID0+IHRoaXMucGFnZS5sb2NhdG9yKCdpbnB1dFtuYW1lPSJwYXNzd29yZCJdJyksCiAgMTMgfCAgICAgbG9naW5CdXR0b246ICgpID0+IHRoaXMucGFnZS5sb2NhdG9yKCdpbnB1dFt0eXBlPSJzdWJtaXQiXScpLAogIDE0IHwgICAgIGVycm9yTWVzc2FnZTogKCkgPT4gdGhpcy5wYWdlLmxvY2F0b3IoJ2gzW2RhdGEtdGVzdD0iZXJyb3IiXScpCiAgMTUgfCAgIH0KICAxNiB8CiAgMTcgfCAgIGFzeW5jIHNhaXNpclVzZXJuYW1lKHVzZXJuYW1lOiBzdHJpbmcpIHsKICAxOCB8ICAgICBhd2FpdCB0aGlzLkVsZW1lbnQudXNlcm5hbWUoKS5maWxsKHVzZXJuYW1lKTsKICAxOSB8ICAgICB9CiAgMjAgfCAgICAgYXN5bmMgc2Fpc2lyUGFzc3dvcmQocGFzc3dvcmQ6IHN0cmluZykgeyAgICAKICAyMSB8ICAgICBhd2FpdCB0aGlzLkVsZW1lbnQucGFzc3dvcmQoKS5maWxsKHBhc3N3b3JkKTsKICAyMiB8ICAgICB9CiAgMjMgfCAgICAgYXN5bmMgY2xpY2tMb2dpbkJ1dHRvbigpIHsKICAyNCB8ICAgICBhd2FpdCB0aGlzLkVsZW1lbnQubG9naW5CdXR0b24oKS5jbGljaygpOwogIDI1IHwgICAgIH0KICAyNiB8ICAgYXN5bmMgZ290bygpIHsKPiAyNyB8ICAgICBhd2FpdCB0aGlzLnBhZ2UuZ290bygnaHR0cHM6Ly93d3cuc2F1Y2VkZW1vLmNvbS8nKTsKICAgICB8ICAgICAgICAgICAgICAgICAgICAgXiBFcnJvcjogcGFnZS5nb3RvOiBUZXN0IGVuZGVkLgogIDI4IHwgICB9CiAgMjkgfAogIDMwIHwgICAvLyBhc3luYyB2ZXJpZnlUaXRsZSgpIHsKICAzMSB8ICAgLy8gICBhd2FpdCBleHBlY3QodGhpcy5wYWdlKS50b0hhdmVUaXRsZSgvU3dhZyBMYWJzLyk7CiAgMzIgfCAgIC8vIH0KICAzMyB8ICAgYXN5bmMgdmVyaWZ5RXJyb3JNZXNzYWdlKCkgewogIDM0IHwgICAgIHJldHVybiBhd2FpdCB0aGlzLkVsZW1lbnQuZXJyb3JNZXNzYWdlKCkKICAzNSB8ICAgfQogIDM2IHwgLy8gICBhc3luYyBsb2dpbih1c2VybmFtZTogc3RyaW5nLCBwYXNzd29yZDogc3RyaW5nKSB7CiAgMzcgfCAvLyAgICAgYXdhaXQgdGhpcy5wYWdlLmZpbGwoJyN1c2VyLW5hbWUnLCB1c2VybmFtZSk7CiAgMzggfCAvLyAgICAgYXdhaXQgdGhpcy5wYWdlLmZpbGwoJyNwYXNzd29yZCcsIHBhc3N3b3JkKTsKICAzOSB8IC8vICAgICBhd2FpdCB0aGlzLnBhZ2UuZ2V0QnlSb2xlKCdidXR0b24nLCB7IG5hbWU6ICdMb2dpbicgfSkuY2xpY2soKTsKICA0MCB8IC8vICAgfQogIDQxIHwKICA0MiB8IC8vICAgYXN5bmMgdmVyaWZ5TG9naW5TdWNjZXNzKCkgewogIDQzIHwgLy8gICAgIGF3YWl0IGV4cGVjdCh0aGlzLnBhZ2UubG9jYXRvcigndGV4dD1Qcm9kdWN0cycpKS50b0JlVmlzaWJsZSgpOwogIDQ0IHwgLy8gfQogIDQ1IHwgfQogIDQ2IHwKICA0NyB8IGV4cG9ydCBkZWZhdWx0IExvZ2luUGFnZTsKYGBg"
+                    }
+                  ]
+                }
+              ],
+              "status": "skipped"
+            }
+          ],
+          "id": "3d5dda3ae6af4bdfd362-a85540b1a77c502cb6ae",
+          "file": "carttest.spec.ts",
+          "line": 34,
+          "column": 5
+        },
+        {
+          "title": "Vérifier que le panier contient un produit",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "webkit",
+              "projectName": "webkit",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "3d5dda3ae6af4bdfd362-dab4c645afb2ed901a9b",
+          "file": "carttest.spec.ts",
+          "line": 16,
+          "column": 5
+        },
+        {
+          "title": "Supprimer un produit du panier",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "webkit",
+              "projectName": "webkit",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "3d5dda3ae6af4bdfd362-113af43f930e748630e7",
+          "file": "carttest.spec.ts",
+          "line": 22,
+          "column": 5
+        },
+        {
+          "title": "Continuer les achats depuis le panier",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "webkit",
+              "projectName": "webkit",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "3d5dda3ae6af4bdfd362-0b6f4b6dbf20eea48266",
+          "file": "carttest.spec.ts",
+          "line": 28,
+          "column": 5
+        },
+        {
+          "title": "Aller à la page de checkout",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "webkit",
+              "projectName": "webkit",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "3d5dda3ae6af4bdfd362-c601263be0ba90135a57",
+          "file": "carttest.spec.ts",
+          "line": 34,
+          "column": 5
+        }
+      ]
+    },
+    {
+      "title": "checkoutcomplete.spec.ts",
+      "file": "checkoutcomplete.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "Vérifier le message de confirmation",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 4275,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2025-03-11T11:26:59.517Z",
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "daaf415a81b0651386ca-5b37959d9acfabce3d3f",
+          "file": "checkoutcomplete.spec.ts",
+          "line": 28,
+          "column": 5
+        },
+        {
+          "title": "Retourner à la page des produits",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 3,
+                  "parallelIndex": 3,
+                  "status": "passed",
+                  "duration": 3231,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2025-03-11T11:26:59.770Z",
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "daaf415a81b0651386ca-b75ee1948eb9058d0c01",
+          "file": "checkoutcomplete.spec.ts",
+          "line": 33,
+          "column": 5
+        },
+        {
+          "title": "Vérifier le message de confirmation",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "firefox",
+              "projectName": "firefox",
+              "results": [
+                {
+                  "workerIndex": 4,
+                  "parallelIndex": 3,
+                  "status": "skipped",
+                  "duration": 0,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2025-03-11T11:27:52.769Z",
+                  "attachments": []
+                }
+              ],
+              "status": "skipped"
+            }
+          ],
+          "id": "daaf415a81b0651386ca-a44b0b4931f9575e1d8e",
+          "file": "checkoutcomplete.spec.ts",
+          "line": 28,
+          "column": 5
+        },
+        {
+          "title": "Retourner à la page des produits",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "firefox",
+              "projectName": "firefox",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "daaf415a81b0651386ca-ce5c63bef82c000c8d9c",
+          "file": "checkoutcomplete.spec.ts",
+          "line": 33,
+          "column": 5
+        },
+        {
+          "title": "Vérifier le message de confirmation",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "webkit",
+              "projectName": "webkit",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "daaf415a81b0651386ca-214ea3a060838d207822",
+          "file": "checkoutcomplete.spec.ts",
+          "line": 28,
+          "column": 5
+        },
+        {
+          "title": "Retourner à la page des produits",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "webkit",
+              "projectName": "webkit",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "daaf415a81b0651386ca-2e114bd69bc2c0516bf8",
+          "file": "checkoutcomplete.spec.ts",
+          "line": 33,
+          "column": 5
+        }
+      ]
+    },
+    {
+      "title": "checkoutsteponetest.spec.ts",
+      "file": "checkoutsteponetest.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "Remplir le formulaire de checkout avec succès",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 3958,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2025-03-11T11:26:59.871Z",
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "a70a5f1635aa74c8c0a9-58f3ad28d24d80521fee",
+          "file": "checkoutsteponetest.spec.ts",
+          "line": 19,
+          "column": 5
+        },
+        {
+          "title": "Ne pas remplir le formulaire et vérifier le message d’erreur",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "parallelIndex": 2,
+                  "status": "passed",
+                  "duration": 3152,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2025-03-11T11:27:00.459Z",
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "a70a5f1635aa74c8c0a9-98c93fdb90bddf4f4862",
+          "file": "checkoutsteponetest.spec.ts",
+          "line": 25,
+          "column": 5
+        },
+        {
+          "title": "Annuler le checkout et revenir au panier",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 3,
+                  "parallelIndex": 3,
+                  "status": "passed",
+                  "duration": 3524,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2025-03-11T11:27:03.060Z",
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "a70a5f1635aa74c8c0a9-020c097e48500a1b53bd",
+          "file": "checkoutsteponetest.spec.ts",
+          "line": 31,
+          "column": 5
+        },
+        {
+          "title": "Remplir le formulaire de checkout avec succès",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "firefox",
+              "projectName": "firefox",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "a70a5f1635aa74c8c0a9-63fae2329390454ba49c",
+          "file": "checkoutsteponetest.spec.ts",
+          "line": 19,
+          "column": 5
+        },
+        {
+          "title": "Ne pas remplir le formulaire et vérifier le message d’erreur",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "firefox",
+              "projectName": "firefox",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "a70a5f1635aa74c8c0a9-1fadf729f85a3a52cdfb",
+          "file": "checkoutsteponetest.spec.ts",
+          "line": 25,
+          "column": 5
+        },
+        {
+          "title": "Annuler le checkout et revenir au panier",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "firefox",
+              "projectName": "firefox",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "a70a5f1635aa74c8c0a9-3a433b143f7c54d05a21",
+          "file": "checkoutsteponetest.spec.ts",
+          "line": 31,
+          "column": 5
+        },
+        {
+          "title": "Remplir le formulaire de checkout avec succès",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "webkit",
+              "projectName": "webkit",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "a70a5f1635aa74c8c0a9-f26210f74ab678d385a5",
+          "file": "checkoutsteponetest.spec.ts",
+          "line": 19,
+          "column": 5
+        },
+        {
+          "title": "Ne pas remplir le formulaire et vérifier le message d’erreur",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "webkit",
+              "projectName": "webkit",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "a70a5f1635aa74c8c0a9-1c87c7e4f5a64372caab",
+          "file": "checkoutsteponetest.spec.ts",
+          "line": 25,
+          "column": 5
+        },
+        {
+          "title": "Annuler le checkout et revenir au panier",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "webkit",
+              "projectName": "webkit",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "a70a5f1635aa74c8c0a9-065a052499fd474a0002",
+          "file": "checkoutsteponetest.spec.ts",
+          "line": 31,
+          "column": 5
+        }
+      ]
+    },
+    {
+      "title": "checkoutsteptwo.spec.ts",
+      "file": "checkoutsteptwo.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "Vérifier que les produits et le prix total s’affichent",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "parallelIndex": 2,
+                  "status": "passed",
+                  "duration": 7191,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2025-03-11T11:27:03.737Z",
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "9e9b5ca31f465cc2ae5b-49047098e109054562eb",
+          "file": "checkoutsteptwo.spec.ts",
+          "line": 24,
+          "column": 5
+        },
+        {
+          "title": "Finaliser l’achat et vérifier la redirection",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 4585,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2025-03-11T11:27:03.863Z",
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "9e9b5ca31f465cc2ae5b-cd32b2af4565354cb555",
+          "file": "checkoutsteptwo.spec.ts",
+          "line": 31,
+          "column": 5
+        },
+        {
+          "title": "Annuler la commande et revenir au catalogue",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 3383,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2025-03-11T11:27:03.926Z",
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "9e9b5ca31f465cc2ae5b-aee6bdf72586c3cc141b",
+          "file": "checkoutsteptwo.spec.ts",
+          "line": 36,
+          "column": 5
+        },
+        {
+          "title": "Vérifier que les produits et le prix total s’affichent",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "firefox",
+              "projectName": "firefox",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "9e9b5ca31f465cc2ae5b-7c6bdc179a91113f07e0",
+          "file": "checkoutsteptwo.spec.ts",
+          "line": 24,
+          "column": 5
+        },
+        {
+          "title": "Finaliser l’achat et vérifier la redirection",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "firefox",
+              "projectName": "firefox",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "9e9b5ca31f465cc2ae5b-bb3896a2746c0d16ae07",
+          "file": "checkoutsteptwo.spec.ts",
+          "line": 31,
+          "column": 5
+        },
+        {
+          "title": "Annuler la commande et revenir au catalogue",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "firefox",
+              "projectName": "firefox",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "9e9b5ca31f465cc2ae5b-b4f0863a258a4cb18148",
+          "file": "checkoutsteptwo.spec.ts",
+          "line": 36,
+          "column": 5
+        },
+        {
+          "title": "Vérifier que les produits et le prix total s’affichent",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "webkit",
+              "projectName": "webkit",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "9e9b5ca31f465cc2ae5b-e62410fe5e3d79e2c9ea",
+          "file": "checkoutsteptwo.spec.ts",
+          "line": 24,
+          "column": 5
+        },
+        {
+          "title": "Finaliser l’achat et vérifier la redirection",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "webkit",
+              "projectName": "webkit",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "9e9b5ca31f465cc2ae5b-d48f8d57de710789225f",
+          "file": "checkoutsteptwo.spec.ts",
+          "line": 31,
+          "column": 5
+        },
+        {
+          "title": "Annuler la commande et revenir au catalogue",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "webkit",
+              "projectName": "webkit",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "9e9b5ca31f465cc2ae5b-e3c0b2a5d300fac3ee66",
+          "file": "checkoutsteptwo.spec.ts",
+          "line": 36,
+          "column": 5
+        }
+      ]
+    },
+    {
+      "title": "example.spec.ts",
+      "file": "example.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "has title",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 3,
+                  "parallelIndex": 3,
+                  "status": "passed",
+                  "duration": 1665,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2025-03-11T11:27:06.625Z",
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "a30a6eba6312f6b87ea5-b06063a3e613764d08f8",
+          "file": "example.spec.ts",
+          "line": 3,
+          "column": 5
+        },
+        {
+          "title": "get started link",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 2708,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2025-03-11T11:27:07.383Z",
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "a30a6eba6312f6b87ea5-274e97907a6e3638a22f",
+          "file": "example.spec.ts",
+          "line": 10,
+          "column": 5
+        },
+        {
+          "title": "has title",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "firefox",
+              "projectName": "firefox",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "a30a6eba6312f6b87ea5-f53a5ad453cd33dc57d5",
+          "file": "example.spec.ts",
+          "line": 3,
+          "column": 5
+        },
+        {
+          "title": "get started link",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "firefox",
+              "projectName": "firefox",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "a30a6eba6312f6b87ea5-bfe080d6fe34297f494c",
+          "file": "example.spec.ts",
+          "line": 10,
+          "column": 5
+        },
+        {
+          "title": "has title",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "webkit",
+              "projectName": "webkit",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "a30a6eba6312f6b87ea5-4a26ebd06a6b810edcc2",
+          "file": "example.spec.ts",
+          "line": 3,
+          "column": 5
+        },
+        {
+          "title": "get started link",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "webkit",
+              "projectName": "webkit",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "a30a6eba6312f6b87ea5-1eb159041d56409ed83c",
+          "file": "example.spec.ts",
+          "line": 10,
+          "column": 5
+        }
+      ]
+    },
+    {
+      "title": "logintest.spec.ts",
+      "file": "logintest.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "Vérifie le titre de la page",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 3,
+                  "parallelIndex": 3,
+                  "status": "passed",
+                  "duration": 1470,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2025-03-11T11:27:08.329Z",
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "73f1ead49d97ad1b53a1-706faabf9eef68f68361",
+          "file": "logintest.spec.ts",
+          "line": 4,
+          "column": 5
+        },
+        {
+          "title": "username correcte & mot de passe correct",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 2242,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2025-03-11T11:27:08.550Z",
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "73f1ead49d97ad1b53a1-c9810c0dfea5f65e5171",
+          "file": "logintest.spec.ts",
+          "line": 9,
+          "column": 5
+        },
+        {
+          "title": "username incorrecte & mot de passe correct",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 3,
+                  "parallelIndex": 3,
+                  "status": "passed",
+                  "duration": 1908,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2025-03-11T11:27:09.833Z",
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "73f1ead49d97ad1b53a1-aed32a6b977ad4aad483",
+          "file": "logintest.spec.ts",
+          "line": 19,
+          "column": 5
+        },
+        {
+          "title": "Vérifie le titre de la page",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "firefox",
+              "projectName": "firefox",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "73f1ead49d97ad1b53a1-99a659f3790c4dbe8b2e",
+          "file": "logintest.spec.ts",
+          "line": 4,
+          "column": 5
+        },
+        {
+          "title": "username correcte & mot de passe correct",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "firefox",
+              "projectName": "firefox",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "73f1ead49d97ad1b53a1-58d84609b6b94a2885ff",
+          "file": "logintest.spec.ts",
+          "line": 9,
+          "column": 5
+        },
+        {
+          "title": "username incorrecte & mot de passe correct",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "firefox",
+              "projectName": "firefox",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "73f1ead49d97ad1b53a1-2b7c47a12b8fb38ea5d4",
+          "file": "logintest.spec.ts",
+          "line": 19,
+          "column": 5
+        },
+        {
+          "title": "Vérifie le titre de la page",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "webkit",
+              "projectName": "webkit",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "73f1ead49d97ad1b53a1-3171a0dfeb6472179b75",
+          "file": "logintest.spec.ts",
+          "line": 4,
+          "column": 5
+        },
+        {
+          "title": "username correcte & mot de passe correct",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "webkit",
+              "projectName": "webkit",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "73f1ead49d97ad1b53a1-b5f233253ef852a759ec",
+          "file": "logintest.spec.ts",
+          "line": 9,
+          "column": 5
+        },
+        {
+          "title": "username incorrecte & mot de passe correct",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "webkit",
+              "projectName": "webkit",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "73f1ead49d97ad1b53a1-548a13c5538602a706f4",
+          "file": "logintest.spec.ts",
+          "line": 19,
+          "column": 5
+        }
+      ]
+    },
+    {
+      "title": "logout.spec.ts",
+      "file": "logout.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "Se déconnecter et vérifier la redirection",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 4173,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2025-03-11T11:27:10.121Z",
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "01b3c3c82abdc8a715b2-6c58ac7ed26f28953bc7",
+          "file": "logout.spec.ts",
+          "line": 13,
+          "column": 5
+        },
+        {
+          "title": "Se déconnecter et vérifier la redirection",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "firefox",
+              "projectName": "firefox",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "01b3c3c82abdc8a715b2-a8bc2717965fa6c5b863",
+          "file": "logout.spec.ts",
+          "line": 13,
+          "column": 5
+        },
+        {
+          "title": "Se déconnecter et vérifier la redirection",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "webkit",
+              "projectName": "webkit",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "01b3c3c82abdc8a715b2-39a6a37287e26d8c4604",
+          "file": "logout.spec.ts",
+          "line": 13,
+          "column": 5
+        }
+      ]
+    },
+    {
+      "title": "products.spec.ts",
+      "file": "products.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "Vérifier que les produits sont affichés",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 3240,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2025-03-11T11:27:10.851Z",
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "000c94276132c4f97581-d3acd7d432f34fa7d33f",
+          "file": "products.spec.ts",
+          "line": 12,
+          "column": 5
+        },
+        {
+          "title": "Ajouter un produit au panier et vérifier le badge",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "parallelIndex": 2,
+                  "status": "passed",
+                  "duration": 3306,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2025-03-11T11:27:10.981Z",
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "000c94276132c4f97581-72eb372c8a0b54d3701c",
+          "file": "products.spec.ts",
+          "line": 17,
+          "column": 5
+        },
+        {
+          "title": "Vérifier que les produits sont affichés",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "firefox",
+              "projectName": "firefox",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "000c94276132c4f97581-6d7d52051fd0a682f08c",
+          "file": "products.spec.ts",
+          "line": 12,
+          "column": 5
+        },
+        {
+          "title": "Ajouter un produit au panier et vérifier le badge",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "firefox",
+              "projectName": "firefox",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "000c94276132c4f97581-17ff53dc714b6e1e3de9",
+          "file": "products.spec.ts",
+          "line": 17,
+          "column": 5
+        },
+        {
+          "title": "Vérifier que les produits sont affichés",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "webkit",
+              "projectName": "webkit",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "000c94276132c4f97581-ecd4fff442e4897e95e7",
+          "file": "products.spec.ts",
+          "line": 12,
+          "column": 5
+        },
+        {
+          "title": "Ajouter un produit au panier et vérifier le badge",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "webkit",
+              "projectName": "webkit",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "000c94276132c4f97581-3329f6539e677fe59e25",
+          "file": "products.spec.ts",
+          "line": 17,
+          "column": 5
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "stats": {
+    "startTime": "2025-03-11T11:26:53.025Z",
+    "duration": 61649.612,
+    "expected": 21,
+    "skipped": 39,
+    "unexpected": 0,
+    "flaky": 0
+  }
+}

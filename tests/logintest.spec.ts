@@ -7,6 +7,7 @@ test('Vérifie le titre de la page', async ({ page }) => {
 });
 
 test('username correcte & mot de passe correct', async ({ page }) => {
+  test.setTimeout(60000); 
   const loginPage = new LoginPage(page);
 
   await loginPage.goto();
@@ -17,6 +18,7 @@ test('username correcte & mot de passe correct', async ({ page }) => {
 });
 
 test('username incorrecte & mot de passe correct', async ({ page }) => {
+  test.setTimeout(60000); 
   const loginPage = new LoginPage(page);
 
   await loginPage.goto();

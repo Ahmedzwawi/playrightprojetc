@@ -18,6 +18,11 @@ pipeline {
                 sh 'npx playwright test'  
             }
         }
+           stage('Publish JUnit Report') {
+            steps {
+                 junit 'results.xml'
+            }
+        }
     }
 
 
