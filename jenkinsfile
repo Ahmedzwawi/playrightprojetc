@@ -14,7 +14,7 @@ pipeline {
 
         stage('Install Allure Commandline') {
             steps {
-                sh 'apt-get update && apt-get install -y allure'
+        sh 'npm install -g allure-commandline --save-dev'
             }
         }
         stage('Run Playwright Tests') {
