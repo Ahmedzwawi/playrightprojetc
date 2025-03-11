@@ -15,7 +15,7 @@ pipeline {
         stage('Run Playwright Tests') {
             steps {
                 sh 'npx playwright install'  
-                sh 'npx playwright test --reporter=jest-junit --output=./results.xml'
+                sh 'npx playwright test'
             }
         }
            stage('Publish JUnit Report') {
@@ -23,7 +23,13 @@ pipeline {
                     junit '**/results.xml' 
             }
         }
+
     }
+       stage('Publish Allure Report') {
+            steps {
+                allure includeProperties: false, jdk: '', results: [[path: 'results.xml']]
+            }
+        }
 
 
 }
