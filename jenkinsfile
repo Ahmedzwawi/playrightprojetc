@@ -31,8 +31,8 @@ pipeline {
                 allure includeProperties: false, jdk: '', results: [[path: 'allure-results']]
             }
         }
-    }
-     post {
+
+         post {
                 always {
                     unstash 'allure-results'
                     scritp {
@@ -42,6 +42,8 @@ pipeline {
                      results: [[path: 'allure-results']]
 }                    }
                  
-                }
-            
-}
+         }
+    }
+    
+        
+
