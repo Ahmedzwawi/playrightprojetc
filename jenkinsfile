@@ -26,9 +26,7 @@ pipeline {
 
         stage('Publish Allure Report') {
             steps {
-                // sh 'allure generate allure-results -c -o allure-report'
-                sh 'npx playwright test --reporter=allure-playwright'
-           sh 'allure generate allure-results --clean'
+                allure includeProperties: false, jdk: '', results: [[path: 'allure-results']]
             }
         }
     }
