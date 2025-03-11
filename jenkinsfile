@@ -1,30 +1,35 @@
 pipeline {
     agent {
         docker {
-            image 'mcr.microsoft.com/playwright:v1.50.0-noble'  
+            image 'mcr.microsoft.com/playwright:v1.50.0-noble'
+            args '--user root' // Permet d'installer des paquets
         }
     }
     stages {
         stage('Install Dependencies') {
             steps {
-                sh 'npm ci'  
+                sh 'npm ci'
             }
         }
 
-        stage('Install Allure Commandline') {
+        stage('Install Allure') {
             steps {
-                sh 'npm install --prefix ./node_modules allure-commandline --save-dev'
+                sh 'apt-get update && apt-get install -y curl unzip'
+                sh 'curl -o allure.zip -Ls https://repo1.maven.org/maven2/io/qameta/allure/allure-commandline/2.21.0/allure-commandline-2.21.0.zip'
+                sh 'unzip allure.zip -d /opt/allure'
+                sh 'ln -s /opt/allure/bin/allure /usr/local/bin/allure'
+                sh 'allure --version'
             }
         }
 
         stage('Run Playwright Tests') {
             steps {
-                sh 'npx playwright install'  
-                sh 'npx playwright test'  
+                sh 'npx playwright install'
+                sh 'npx playwright test'
             }
         }
 
-        stage('Publish Allure Report') {
+        stage('Generate Allure Report') {
             steps {
                 sh 'allure generate allure-results -c -o allure-report'
             }
