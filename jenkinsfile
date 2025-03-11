@@ -26,7 +26,8 @@ pipeline {
 
         stage('Publish Allure Report') {
             steps {
-archiveArtifacts artifacts: 'allure-results', allowEmptyArchive: true            }
+                allure includeProperties: false, jdk: '', results: [[path: 'allure-results']]
+            }
         }
     }
 }
