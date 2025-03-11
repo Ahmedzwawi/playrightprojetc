@@ -1,11 +1,10 @@
 pipeline {
- stage{  
+ 
     agent {
         docker {
             image 'mcr.microsoft.com/playwright:v1.50.0-noble'  
         }
-    }}
-   
+    }
     stages {
         stage('Install Dependencies') {
             steps {
@@ -15,15 +14,15 @@ pipeline {
 
         stage('Install Allure Commandline') {
             steps {
-                // Installation locale d'Allure Commandline pour éviter les erreurs de permissions
                 sh 'npm install --prefix ./node_modules allure-commandline --save-dev'
             }
         }
 
         stage('Run Playwright Tests') {
             steps {
-                sh 'npx playwright install'  
-                sh 'npx playwright test'  
+                    sh 'npx playwright install'
+                    sh 'npx playwright test'
+                }
             }
         }
 
