@@ -1,0 +1,23 @@
+pipeline {
+    agent {
+        docker {
+            image 'Playwright'  
+        }
+    }
+
+
+    stages {
+
+
+        stage('Run') {
+            steps {
+                sh 'npm ci'
+                sh 'npx playwright test'
+            }
+        }
+
+       
+    }
+
+  
+}
