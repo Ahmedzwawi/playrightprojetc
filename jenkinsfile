@@ -18,7 +18,7 @@ pipeline {
         }
 
         stage('Run Playwright Tests') {
-            steps {
+            steps {x
                 sh 'npx playwright install'  
                 sh 'npx playwright test'  
             }
